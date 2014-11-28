@@ -60,7 +60,7 @@ object FrmEstSearchDialogPresetCustomize: TFrmEstSearchDialogPresetCustomize
         FocusControl = lbxRemove
       end
       object radStore: TRadioButton
-        Left = 4
+        Left = 5
         Top = 6
         Width = 237
         Height = 17

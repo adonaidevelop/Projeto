@@ -1,9 +1,3 @@
-{
-  Unit   : fEstSearchDialogPresetCustomize
-  Datum  : 6-12-2003
-  Auteur : Erik Stok
-  Doel   : Scherm voor zoekdialoog preset list aanpassingen
-}
 unit fEstSearchDialogPresetCustomize;
 
 interface
@@ -11,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, ComCtrls, ExtCtrls, ActnList, uEstSearchDialogTypes,
-  uEstSearchDialogIntl;
+  uEstSearchDialogIntl, System.Actions;
 
 type
   TFrmEstSearchDialogPresetCustomize = class(TForm)
